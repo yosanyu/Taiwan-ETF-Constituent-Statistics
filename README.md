@@ -1,4 +1,4 @@
-# Constituent-Statistics
+# Taiwan-ETF-Constituent-Statistics
 ## 這是什麼專案?
 這是一個用來統計台灣各家投信所出的國內股票型ETF中成分股的出現次數的專案    
 例如現在流行高股息ETF，想知道哪些個股是被多個ETF給納入，就可以使用。  
@@ -20,6 +20,10 @@ https://www.moneydj.com/robots.txt
 4.StockLoader 讀取stock資料夾內的csv資料  
 5.ETFRequester 請求各個ETF的成分股資料  
 6.CSVWriter 將最終結果輸出成csv檔案
+
+## 之後新出的ETF或新投信沒有怎麼辦?
+1.ETF須手動將新的資料加進對應投信的CSV檔案  
+2.新投信須手動增加新的CSV檔案  
 
 ## 還能如何擴充?
 1.加入單一投信的所有ETF  
