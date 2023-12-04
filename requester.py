@@ -13,7 +13,7 @@ class ETFRequester:
         self.stock_dict = {}
         self.stock_max_weight_dict = {}
         self.stock_min_weight_dict = {}
-        self.base_url = ''
+        self.base_url = 'https://www.moneydj.com/ETF/X/Basic/Basic0007B.xdjhtm?etfid='
         self.len = len(self.etfs)
         self.string_len = str(self.len)
 
